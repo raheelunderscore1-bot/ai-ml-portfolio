@@ -38,6 +38,34 @@ projects = [
         "mobile_url": None,
         "pdf_url": "https://drive.google.com/uc?export=download&id=1Uyto7uLO2JF8mOrO7Urtk1NReQe0f-XP"
     },
+            {
+        "title": "🩸 AI Dialysis Monitoring Dashboard",
+        "desc": "Predictive IoT monitoring for Home Based Dialysis using Gemini for tube/effluent analysis.",
+        "video_url": "https://youtu.be/3wQp4kaYsLY",  # Web Demo
+        "mobile_url": "https://youtube.com/shorts/xIXFXgAVYgo", # Mobile Demo
+        "pdf_url": "https://drive.google.com/uc?export=download&id=1XbSi1FgqxCDw6dVDAx1_i7EyN0fyFfJy"
+    },
+    {
+        "title": "⚡ Smart Grid Renforcement Learning Agent Dashboard",
+        "desc": "Reinforcement Learning agent for real-time load balancing and grid operational stability.",
+        "video_url": "https://youtu.be/lmHrAaCyPMI",
+        "mobile_url": "https://youtube.com/shorts/eVePrmvHsg4",
+        "pdf_url": "https://drive.google.com/uc?export=download&id=1z5rtlmHFogwD1brJDScsY-H64GMYC4zS"
+    },
+    {
+        "title": "🚦 AI Traffic Intelligence Dashboard",
+        "desc": "Neural-network driven traffic flow optimization with multi-platform monitoring.",
+        "video_url": "https://youtu.be/t5YxLzRqIwc",
+        "mobile_url": "https://youtube.com/shorts/2LqqTSjDyLo",
+        "pdf_url": "https://drive.google.com/uc?export=download&id=1shMA0Pw2pAwxQMcLDJq8AgTEQqIjAXSl"
+    },
+        {
+        "title": "💳 AI based Customer Buying Behavior Profiling",
+        "desc": "ML pipeline for segmenting credit card users into actionable behavioral profiles.",
+        "video_url": "https://youtu.be/v9JjRRtWukw",
+        "mobile_url": None,
+         "pdf_url": "https://drive.google.com/uc?export=download&id=16f-Q3CZrPEZMUu4miIQWUNEBZuCNKpv3"
+    },
   {
         "title": "🐈 Cat-Dog Image Classifier",
         "desc": "Neural Network model deployment via GitHub + Google Drive for pet detection.",
@@ -65,34 +93,6 @@ projects = [
         "video_url": "https://youtu.be/gvDqwheu94Q",
         "mobile_url": None,
         "pdf_url": "https://drive.google.com/uc?export=download&id=1Q1SOiHH7aYRmp48ECeYflk4yqrVSIkZr"
-    },
-        {
-        "title": "🩸 AI Dialysis Monitoring Dashboard",
-        "desc": "Predictive IoT monitoring for Home Based Dialysis using Gemini for tube/effluent analysis.",
-        "video_url": "https://youtu.be/3wQp4kaYsLY",  # Web Demo
-        "mobile_url": "https://youtube.com/shorts/xIXFXgAVYgo", # Mobile Demo
-        "pdf_url": "https://drive.google.com/uc?export=download&id=1XbSi1FgqxCDw6dVDAx1_i7EyN0fyFfJy"
-    },
-    {
-        "title": "⚡ Smart Grid Renforcement Learning Agent Dashboard",
-        "desc": "Reinforcement Learning agent for real-time load balancing and grid operational stability.",
-        "video_url": "https://youtu.be/lmHrAaCyPMI",
-        "mobile_url": "https://youtube.com/shorts/eVePrmvHsg4",
-        "pdf_url": "https://drive.google.com/uc?export=download&id=1z5rtlmHFogwD1brJDScsY-H64GMYC4zS"
-    },
-    {
-        "title": "🚦 AI Traffic Intelligence Dashboard",
-        "desc": "Neural-network driven traffic flow optimization with multi-platform monitoring.",
-        "video_url": "https://youtu.be/t5YxLzRqIwc",
-        "mobile_url": "https://youtube.com/shorts/2LqqTSjDyLo",
-        "pdf_url": "https://drive.google.com/uc?export=download&id=1shMA0Pw2pAwxQMcLDJq8AgTEQqIjAXSl"
-    },
-        {
-        "title": "💳 AI based Customer Buying Behavior Profiling",
-        "desc": "ML pipeline for segmenting credit card users into actionable behavioral profiles.",
-        "video_url": "https://youtu.be/v9JjRRtWukw",
-        "mobile_url": None,
-         "pdf_url": "https://drive.google.com/uc?export=download&id=16f-Q3CZrPEZMUu4miIQWUNEBZuCNKpv3"
     }
 ]
 
