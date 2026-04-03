@@ -88,7 +88,7 @@ for p in projects:
         st.video(p['video_url'])
         
         # Add a sub-column for the Mobile/Shorts demo if it exists
-        if p['mobile_url']:
+        if p.get('mobile_url'):
             with st.expander("📱 View Mobile Interface Demo"):
                 st.video(p['mobile_url'])
     
