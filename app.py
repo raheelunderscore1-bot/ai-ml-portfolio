@@ -21,7 +21,7 @@ projects = [
     {
         "title": "🩸 AI based Grid Management",
         "desc": "Predictive IoT monitoring for Peritoneal Dialysis using Gemini 3 Flash Vision for tube/effluent analysis.",
-        "video_url": "https://drive.google.com/uc?export=download&id=1DFfIFmdBV4XbLGzjmapjzaxmDfKf4hW8",
+        "video_url": "https://www.youtube.com/watch?v=lmHrAaCyPMI",
         "pdf_url": "https://drive.google.com/uc?export=download&id=1z5rtlmHFogwD1brJDScsY-H64GMYC4zS"
     },
     {
