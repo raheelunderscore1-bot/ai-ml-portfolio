@@ -43,6 +43,7 @@ projects = [
         "title": "👁️ Image Detector Bot (Engineering)",
         "desc": "Automated R&D documentation agent for hardware component identification and logging.",
         "video_url": "https://youtu.be/XbMW9z8iKRI",
+        "mobile_url": None,
         "pdf_url": "https://drive.google.com/uc?export=download&id=1Uyto7uLO2JF8mOrO7Urtk1NReQe0f-XP"
     },
     {
@@ -63,18 +64,21 @@ projects = [
         "title": "💳 AI based Customer Buying Behavior Profiling",
         "desc": "ML pipeline for segmenting credit card users into actionable behavioral profiles.",
         "video_url": "https://youtu.be/v9JjRRtWukw",
+        "mobile_url": None,
          "pdf_url": "https://drive.google.com/uc?export=download&id=16f-Q3CZrPEZMUu4miIQWUNEBZuCNKpv3"
     },
     {
         "title": "🐈 Cat-Dog Image Classifier",
         "desc": "Neural Network model deployment via GitHub + Google Drive for pet detection.",
         "video_url": "https://youtu.be/8t-CMmsrmUA",
+        "mobile_url": None,
         "pdf_url": "https://drive.google.com/uc?export=download&id=1v8H_XSZZbcC17XfhkRMKfoYv2x_kJmJf"
     },
     {
         "title": "🤖 GPT-Like Chatbot",
         "desc": "Full-stack LLM assistant implementation using the Gemini API.",
         "video_url": "https://youtu.be/gvDqwheu94Q",
+        "mobile_url": None,
         "pdf_url": "https://drive.google.com/uc?export=download&id=1Q1SOiHH7aYRmp48ECeYflk4yqrVSIkZr"
     }
 ]
