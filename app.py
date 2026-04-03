@@ -20,7 +20,7 @@ st.divider()
 projects = [
     {
         "title": "🩸 AI Dialysis Monitoring Dashboard",
-        "desc": "Predictive IoT monitoring for Peritoneal Dialysis using Gemini 3 Flash Vision for tube/effluent analysis.",
+        "desc": "Predictive IoT monitoring for Home Based Dialysis using Gemini for tube/effluent analysis.",
         "video_url": "https://youtu.be/3wQp4kaYsLY",  # Web Demo
         "mobile_url": "https://youtube.com/shorts/xIXFXgAVYgo", # Mobile Demo
         "pdf_url": "https://drive.google.com/uc?export=download&id=1XbSi1FgqxCDw6dVDAx1_i7EyN0fyFfJy"
@@ -60,7 +60,7 @@ projects = [
         "pdf_url": "https://drive.google.com/uc?export=download&id=1y3gT1ITCXHhdHxfJ96eWjQu9jRQhWZFS"
     },
     {
-        "title": "💳 AI based Customer Buying Behavior Detection",
+        "title": "💳 AI based Customer Buying Behavior Profiling",
         "desc": "ML pipeline for segmenting credit card users into actionable behavioral profiles.",
         "video_url": "https://youtu.be/v9JjRRtWukw",
          "pdf_url": "https://drive.google.com/uc?export=download&id=16f-Q3CZrPEZMUu4miIQWUNEBZuCNKpv3"
@@ -120,6 +120,6 @@ for p in projects:
     st.divider()
 
 # --- 4. FOOTER / CONTACT ---
-st.sidebar.header("About the Developer: Raheel")
+st.sidebar.header("About the Developer - (Raheel)")
 st.sidebar.info("Focused on the intersection of AI, ML & Automation.")
-st.sidebar.write("📍 Based in Pakistan")
+st.sidebar.write("visionary313@gmail.com")
