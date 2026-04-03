@@ -1,5 +1,18 @@
 import streamlit as st
 
+# --- NEW: URL HELPER FUNCTION ---
+def get_embed_url(url):
+    """Converts standard YouTube and Shorts links to embed format."""
+    if not url:
+        return None
+    if "youtube.com/shorts/" in url:
+        return url.replace("youtube.com/shorts/", "youtube.com/embed/")
+    if "youtu.be/" in url:
+        return url.replace("youtu.be/", "youtube.com/embed/")
+    if "watch?v=" in url:
+        return url.replace("watch?v=", "embed/")
+    return url
+
 # --- 1. PAGE SETUP ---
 st.set_page_config(page_title="AI Engineering Portfolio", layout="wide")
 
@@ -85,17 +98,18 @@ projects = [
 
 # --- THE FINAL CONSOLIDATED RENDERER ---
 for p in projects:
-    # 1. Create the Split: Video on Left (1.5), Info/Button on Right (1)
     col_vid, col_info = st.columns([1.5, 1])
     
     with col_vid:
-        # Main Web Demo
-        st.video(p['video_url'])
+        # Use the helper function here for the main video
+        main_video_clean = get_embed_url(p['video_url'])
+        st.video(main_video_clean)
         
-        # Add a sub-column for the Mobile/Shorts demo if it exists
         if p.get('mobile_url'):
             with st.expander("📱 View Mobile Interface Demo"):
-                st.video(p['mobile_url'])
+                # Use the helper function here for the mobile video
+                mobile_video_clean = get_embed_url(p['mobile_url'])
+                st.video(mobile_video_clean)
     
     with col_info:
         # 2. Project Title and Description
