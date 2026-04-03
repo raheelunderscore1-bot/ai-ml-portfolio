@@ -83,8 +83,9 @@ projects = [
     }
 ]
 
-# --- THE UPDATED RENDERER ---
+# --- THE FINAL CONSOLIDATED RENDERER ---
 for p in projects:
+    # 1. Create the Split: Video on Left (1.5), Info/Button on Right (1)
     col_vid, col_info = st.columns([1.5, 1])
     
     with col_vid:
@@ -97,30 +98,21 @@ for p in projects:
                 st.video(p['mobile_url'])
     
     with col_info:
-        st.markdown(f"### {p['title']}")
-        st.write(p['desc'])
-        st.link_button("📄 Download Technical One-Pager", p['pdf_url'], use_container_width=True)
-        if p.get('mobile_url'):
-            st.caption("✅ Mobile & Web Optimized")
-    
-    st.divider()
-
-# --- 3. THE GALLERY RENDERER ---
-for p in projects:
-    # Create the Split: Video on Left (60%), Info/Button on Right (40%)
-    col_vid, col_info = st.columns([1.5, 1])
-    
-    with col_vid:
-        st.video(p['video_url'])
-    
-    with col_info:
+        # 2. Project Title and Description
         st.markdown(f"<h2 class='project-header'>{p['title']}</h2>", unsafe_allow_html=True)
         st.write(p['desc'])
         
-        # Action Buttons
-        st.link_button("📄 Download Technical One-Pager", p['pdf_url'], use_container_width=True)
+        # 3. Action Buttons
+        if p.get('pdf_url'):
+            st.link_button("📄 Download Technical One-Pager", p['pdf_url'], use_container_width=True)
+        
+        # 4. Badges and Disclaimers
+        if p.get('mobile_url'):
+            st.success("✅ Mobile & Web Optimized")
+            
         st.caption("🔒 Source code available upon request (Proprietary/Medical IP)")
 
+    # 5. Clean Divider between projects
     st.divider()
 
 # --- 4. FOOTER / CONTACT ---
