@@ -96,7 +96,7 @@ for p in projects:
         st.markdown(f"### {p['title']}")
         st.write(p['desc'])
         st.link_button("📄 Download Technical One-Pager", p['pdf_url'], use_container_width=True)
-        if p['mobile_url']:
+        if p.get('mobile_url'):
             st.caption("✅ Mobile & Web Optimized")
     
     st.divider()
